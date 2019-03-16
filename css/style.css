@@ -126,6 +126,9 @@ header:after{
 	margin: 0 auto;
 	box-shadow: 2px 3px 55px 0px rgba(243, 33, 33, 0.64);
 }
+.main-image-title{
+	padding: 25% 0;
+}
 .image-title1{
 	font-size: 36px;
 	font-weight: 300;
@@ -133,17 +136,12 @@ header:after{
 .image-title2{
 	font-size: 46px;
 	font-weight: 900;
-	margin-top: 20px;
+	margin-top: 22px;
+	line-height: 50px;
 }
 .image-title1,.image-title2{
 	text-align: center;
 	text-transform: uppercase;
-}
-.main-image-title{
-	display: table-cell;
-	vertical-align: middle;
-	width: 428px;
-    height: 428px;
 }
 .main-image-type-2{
 	top: 89px;
@@ -196,7 +194,7 @@ main{
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 1.5;
-	padding: 37px 0;
+	padding: 32px 0;
 }
 .main-product-desk-type{
 	float: left;
@@ -206,7 +204,7 @@ main{
     box-sizing: border-box;
     position: relative;
 }
-.main-product-desk-block{
+.main-product-desk-image{
 	height: 186px;
 	width: inherit;
 	display: table-cell;
@@ -283,13 +281,13 @@ main{
 }
 .main-news-type1{
 	width: 570px;
-	min-height: 487px;
+	height: 487px;
 	float: left;
 	padding-right: 30px;
 }
 .main-news-type1-image a{
 	background: url(../img/news-1-min.jpg)no-repeat center;
-	width: 570px;
+	width: inherit;
 	height: 261px;
 	border-radius: 10px;
 	display: block;
